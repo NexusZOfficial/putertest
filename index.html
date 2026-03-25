@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Puter AI</title>
+  <script src="https://js.puter.com/v2/"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Puter AI Dashboard</h1>
+
+  <button id="loginBtn">Login</button>
+  <button id="logoutBtn">Logout</button>
+
+  <br><br>
+
+  <select id="model">
+    <option value="gpt-4o">GPT-4o</option>
+    <option value="gpt-4o-mini">GPT-4o Mini</option>
+    <option value="claude">Claude</option>
+  </select>
+
+  <br><br>
+
+  <textarea id="prompt" placeholder="Ask anything..."></textarea>
+  <br><br>
+
+  <button id="send">Send</button>
+
+  <pre id="output"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
