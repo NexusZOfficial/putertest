@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+pre {
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
